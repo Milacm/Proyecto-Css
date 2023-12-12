@@ -184,15 +184,14 @@ div .imagen-fondo{
     overflow: hidden;
     position: relative;
     cursor: pointer;
-    
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 }
 
 .servicio-ind > img{
     width: 100px;
     height: 100px;
-    object-fit:initial
-    display: block;
+    object-fit:inherit;
+    display: flexbox;
 }
 
 .footer{
